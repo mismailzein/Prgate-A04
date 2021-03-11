@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>* {
+      box-sizing: border-box;
+    }
+    
+    html, body,
+    ul, ol, li,
+    h1, h2, h3, h4, h5, h6, p, div {
+      margin: 0;
+      padding: 0;
+    }
+    
+    body {
+      font-family: "Lucida Grande";
+    }
+  
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  
+    .container{
+      max-width: 1170px;
+      padding: 0 15px;
+      margin: 0 auto;
+  
+    }
+  /*
+    .header{
+        background-color:rgb(108,108,254);
+        height: 69px;
+        color:white;
+        padding: 20px 10px;
+        width: 100%;
+        position :fixed;
+        top: 0;
+        z-index: 10;
+    }
+    .header-left{
+        float: left;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .header-right{
+        float:right;
+    }
+    .header-right li{
+        float: left;
+        list-style: none;
+        color: white;
+        padding-right:20px ;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+  */
+  
+    .top-wrapper{
+        text-align: center;
+        padding: 100px 0 50px 0;
+        
+    }
+  
+    .top-wrapper-inner{
+        padding: 10px 40px 40px 40px;
+        background-color: rgb(216,216,254);
+        border-radius: 5px;
+        height: fit-content;
+        
+  
+    }
+  
+    .top-wrapper h1{
+        border-bottom: 1px solid  rgb(112,112,254)  ;
+        font-size: 60px;
+        letter-spacing: 10px;
+        color:rgb(112,112,254);
+        opacity: 0.9;
+        padding: 40px 4px;
+    }
+  
+    .top-wrapper p{
+        padding: 30px 50px;
+        font-size: 20px;
+        color:rgb(112,112,254);
+        opacity: 0.7;
+        line-height: 30px;
+  
+    }
+    .button {
+      margin-top: 15px;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 15px;  
+      text-align: center;
+      width: 40%;
+      background-color:  rgb(75, 75, 185);
+  
+    }
+    
+    .button a{
+      padding: 12px 20px;
+      opacity: 0.8;
+      color: white;
+      display: block;
+    }
+   
+    .button:hover{
+      background-color:  rgb(59, 59, 167);
+    }
+    .konten{
+        margin-top: 50px;
+        text-align: center;
+        height: 300px;
+        color: rgb(112,112,254);
+    }
+    .heading{
+        font-size: 12px;
+        
+    }
+    .isiKonten{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        float: left;
+        width: 25%;
+    }
+  
+  
+    .txt-contents{
+        padding-top: 10px;
+    }
+  
+    .iconKonten{
+      background-color: rgb(112,112,254);
+      margin: 5px 20px 5px 20px;
+      padding: 80px;
+      border-radius: 4px;
+    }
+  
+  
+  @media all and (max-width: 1000px) {
+  
+      .isiKonten{
+       width: 50%;
+       padding-top: 5px;
+      }
+  
+  }
+  
+  @media all and (max-width: 670px) {
+      .top-wrapper h1{
+        font-size: 28px;
+      }
+  
+      .button{
+        width: 100%;
+      }
+  
+      .top-wrapper p{
+          padding: 30px 50px;
+          font-size: 15px;
+      }
+  
+      .isiKonten{
+       width: 100%;
+      }
+  
+  
+  }
+  </style>
+
+    <title>Document</title>
+</head>
+<body>
+    <!--<header class="header">
+        <div class="container">
+            <div class="header-left">
+                Progate A04
+            </div>
+            <div class ="header-right">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Lessons</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </div>
+        </div>
+    </header>
+    -->
+    <div class="top-wrapper">
+        <div class="container">
+            <div class="top-wrapper-inner">
+                <h1>WEBSITE BELAJAR ONLINE</h1>
+                <p>Belajar lebih mudah bersama kami
+                <br>Ayo Bergabung bersama ribuan siswa lainnya</p>
+                <div class="button">
+                    <a href="#" class="btn-login">Log In</a>
+                </div>
+                <div class="button">
+                    <a href="#" class="btn-Signup">Sign Up</a>
+                </div>                 
+            </div>
+        </div>
+    </div>
+    <div class="konten">
+        <div class="container">
+                <div class="heading">
+                    <h2>MENGAPA BELAJAR BERSAMA KAMI ?</h2>
+                  </div>
+                  <div class="daftarKonten">
+                    <div class="isiKonten">
+                      <div class="iconKonten">
+                        <div class="square"></div>
+                      </div>
+                      <p class="txt-contents">Belajar lebih simpel dan santai</p>
+                    </div>
+                    <div class="isiKonten">
+                        <div class="iconKonten">
+                          <div class="square"></div>
+                        </div>
+                        <p class="txt-contents">Materi menarik dan interaktif</p>
+                      </div>
+                    <div class="isiKonten">
+                      <div class="iconKonten">
+                        <div class="square"></div>
+                      </div>
+                      <p class="txt-contents">Ditemani pembimbing yang ramah</p>
+                    </div>
+                    <div class="isiKonten">
+                        <div class="iconKonten">
+                          <div class="square"></div>
+                        </div>
+                        <p class="txt-contents">Harga setiap materi terjangkau</p>
+                      </div>
+                  </div>
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
